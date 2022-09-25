@@ -5,24 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
    <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body>
+    
     <header>
-        <img
-        src="..public/images/logo-mercado-liebre.svg" alt="Imagen logo mercado liebre">        
-         <input>
-<button>search</button>
-<h3>Compra en cuotas y sin tarjeta de credito</h3>
+        <!-------------------- MENU DE NAVEGACIÓN ---------------------->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+            <div class="container">
+                <a href="" class="navbar-brand">
+                    <img src="/img/isologotipoNav.png" class="img-fluid">
+                </a>
+                <button type="button" class="navbar-toggler"
+                 data-bs-target="#navbarNav" 
+                 data-bs-toggle="collapse" 
+                 aria-controls="navbarNav" 
+                 aria-expanded="false"
+                 aria-label="Toggle Navbar"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <nav class="navbar texto centrado">
-            <ul>
-                <li><a href="#">Ingresa</a></li>
-                <li><a href="#">Vender</a></li>
-                <li><a href="#">Tiendas Oficiales</a></li>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Crea tu Cuenta</a></li>
-                <li><a href="#">Ayuda</a></li>
-                <li><a href="#">Mis Compras</a></li>
+            </div>
+        <img src="../public/images/logo-mercado-liebre.svg" alt="Imagen logo mercado liebre">        
+         
+         
+<button>Buscar productos, marcas</button>
+<button>
+<i class="bi bi-search"></i>
+</button>
+<h3>Compra en cuotas y sin tarjeta de credito</h3>
+<button>
+    <i class="icono Hamb"></i> <!--subir icono -->
+</button>
+        <nav class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"></li>
+                <a href="#">Ingresa</a>
+            </li>
+                <li class="nav-item">
+                <a href="#">Vender</a>
+            </li>
+                <li class="nav-item">
+                <a href="#">Tiendas Oficiales</a>
+            </li>
+                <li class="nav-item">
+                <a href="#">Ofertas</a>
+            </li>
+                <li class="nav-item">
+                <a href="#">Crea tu Cuenta</a>
+            </li>
+                <li class="nav-item">
+                <a href="#">Ayuda</a>
+            </li>
+                <li class="nav-item">
+                <a href="#">Mis Compras</a>
+            </li>
             </ul>
         </nav>
         <div class="container products-wrapper">
@@ -31,8 +69,22 @@
                 <h2 class="products-title">Basado en tu última visita</h2>
                 <div class="col-12 col-md-6 col-lg-3">
                     <section class="product-box">
-                        <img-cafetera-moulinex.jpg></img-cafetera-moulinex.jpg>
+                        <img src="/img-cafetera-moulinex.jpg">
+                        <imagen class="product-box-data">
+                            <h2>$6770</h2>
+                            <span>40% OFF</span>
+                            <p>Cafetera Moulinex</p>
+                        </imagen>
                     </section>
+                    <section class="product-box">
+                        <img src="images/img-macbook-pro-2019.jpg">
+                        <imagen class="product-box-data">
+                            <h2>$230000</h2>
+                            <span>20% OFF</span>
+                            <p>MacBook Pro 2019</p>
+                        </imagen>
+                    </section>  
+
                 </div>
 
             </div>
