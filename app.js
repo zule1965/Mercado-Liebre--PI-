@@ -8,7 +8,7 @@ app.get ('/', (req,res)=>{
     res.sendFile(path.join(__dirname,'/views/index.html'))
 })
 
-app.listen(process.env.PORT || 3002,()=>
+app.listen(process.env.PORT || 3001,()=>
     console.log('servidor corriendo en puerto 3001')
 );
 
