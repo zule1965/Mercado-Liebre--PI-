@@ -10,15 +10,6 @@ height: 120px;
 padding: 10ppx20px;
 display: flex;
 }
-#credito-s-tarjeta{
-    float: right;
-}
-#buscar_prod{
-    width: 100%;
-    font-size: 18px;
-    padding: 11px;
-    border: 1px solid #666;
-}
 #banner_main{
     display: block;
     width: 100%;
@@ -104,9 +95,10 @@ display: flex;
 }
 
 #mi_footer{
-position: fixed;
+position: relative ;
 left: 0;
 bottom: 0;
 width: 100%;
-text-align: center;
+text-align: left;
+padding: 12px;
 }
