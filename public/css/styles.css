@@ -1,23 +1,17 @@
-.navbar-brand img{
-    height:3vw
+#header{
+font-family: Roboto;
+color: #03264C;
+background-color: #EAC926;
+flex-flow: column wrap;
+box-sizing: border-box;
+width: 150px;
+height: 120px;
+padding: 10ppx20px;
 }
-body{
-    background-color: #eac926;
-    font-family: 'Roboto', 'sans-serif';
-    text-decoration: none;
+#button{
     display: flex;
-    flex-flow:row nowrap
-}
-
-.container1{
-    width: 300px;
-    vertical-align: middle;
-    white-space: nowrap;
-    position: relative;
-  }
-.container products-wrapper{
-       display: flex;
-   flex-wrap: wrap;
-   flex: 50%
+    flex-flow: nowrap;
+    justify-content: space-around;
+    align-items: center;
 
 }
