@@ -2,12 +2,16 @@
 font-family: Roboto;
 color: #03264C;
 background-color: #EAC926;
+float: left;
 flex-flow: column wrap;
 box-sizing: border-box;
 width: 150px;
 height: 120px;
 padding: 10ppx20px;
 display: flex;
+}
+#credito-s-tarjeta{
+    float: right;
 }
 #buscar_prod{
     width: 100%;
