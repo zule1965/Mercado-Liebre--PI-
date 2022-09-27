@@ -1,38 +1,46 @@
-#header{
+*{box-sizing: border-box}
+body{
 display: flex;
 font-family: Roboto;
 background-color: #EAC926;
-box-sizing: border-box;
-width: 100%;
-position: fixed;
-padding: 10px;
+width: 480px;
+padding: 20px;
 display: flex;
 color: #03264C;
-background-position: 0%;
+border: solid 5px black;
 }
 .logo{
-    flex-flow: row nowrap;
+    width: 20vw;
+    display: flex;
+    background-position: left top;
 }
-#banner_main{
-box-sizing: border-box;
-display: block;
-width: 90vw;
+#buscar_prod{
+    font-size: 15px;
+    text-align: left;
+    
+
+}
+#barra{
+    width: 10px;
+    text-align: end;
+}
+ul{
+    text-decoration: none;  
+    font-size: 18px;
+    text-align: left;  
 }
 
-.figura1{
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-    width: 170px;
-    height: 170px;
-    hyphens: auto;
-    word-wrap: break-word;
-    line-height: 1;
-    min-height: 3em;
-    text-transform: uppercase;
-    font-weight: 400;
+.banner img{
+background-color: #666;
+max-width: 100%;
+height: auto;
 }
-.footer{
+img{
+    width: 300px;
+}
+
+    
+footer{
 flex-flow: wrap;
 display: flex;
 text-align: center;
