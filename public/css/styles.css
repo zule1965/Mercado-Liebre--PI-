@@ -1,109 +1,26 @@
 #header{
-font-family: Roboto;
-color: #03264C;
-background-color: #EAC926;
-float: left;
-flex-flow: column wrap;
-box-sizing: border-box;
-width: 150px;
-height: 120px;
-padding: 10ppx20px;
 display: flex;
+font-family: Roboto;
+background-color: #EAC926;
+box-sizing: border-box;
+width: 100%;
+position: fixed;
+padding: 10px;
+display: flex;
+color: #03264C;
+background-position: 0%;
+}
+.logo{
+    flex-flow: row nowrap;
 }
 #banner_main{
-    display: block;
-    width: 100%;
-}
-.mis_prod1{
-    flex-wrap: wrap;
-}
-.datos{
-    display: flex ;
-    flex-direction: column;
-    box-sizing: border-box;
-}
-.img_de_prod1{
-    display: flex;
-    flex-direction: column;
-    width: 170px;
-    height: 170px;
-    hyphens: auto;
-    word-wrap: break-word;
-    line-height: 1;
-    min-height: 3em;
-    text-transform: uppercase;
-    font-weight: 400;
+box-sizing: border-box;
+display: block;
+width: 90vw;
 }
 
-.mis_prod2{
+.figura1{
     flex-wrap: wrap;
-}
-.datos{
-    display: flex ;
-    flex-direction: column;
-    box-sizing: border-box;
-}
-.img_de_prod2{
-    display: flex;
-    flex-direction: column;
-    width: 170px;
-    height: 170px;
-    hyphens: auto;
-    word-wrap: break-word;
-    line-height: 1;
-    min-height: 3em;
-    text-transform: uppercase;
-    font-weight: 400;
-}
-.mis_prod3{
-    flex-wrap: wrap;
-}
-.datos{
-    display: flex ;
-    flex-direction: column;
-    box-sizing: border-box;
-}
-.img_de_prod3{
-    display: flex;
-    flex-direction: column;
-    width: 170px;
-    height: 170px;
-    hyphens: auto;
-    word-wrap: break-word;
-    line-height: 1;
-    min-height: 3em;
-    text-transform: uppercase;
-    font-weight: 400;
-}
-.mis_prod4{
-    flex-wrap: wrap;
-}
-.datos{
-    display: flex ;
-    flex-direction: column;
-    box-sizing: border-box;
-}
-.img_de_prod4{
-    display: flex;
-    flex-direction: column;
-    width: 170px;
-    height: 170px;
-    hyphens: auto;
-    word-wrap: break-word;
-    line-height: 1;
-    min-height: 3em;
-    text-transform: uppercase;
-    font-weight: 400;
-}
-.mis_prod5{
-    flex-wrap: wrap;
-}
-.datos{
-    display: flex ;
-    flex-direction: column;
-    box-sizing: border-box;
-}
-.img_de_prod5{
     display: flex;
     flex-direction: column;
     width: 170px;
